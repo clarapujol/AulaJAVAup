@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2de609d9-1c16-4967-81be-c8654f8a1b16" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/desenvolvimento de software" value="3AftdkleliBwFkvPL6Vty7cFNI7" />
+      <entry key="_E:/FACULDADE/3 PERÍODO/desenvolvimento de software" value="3As36pixgstSYtZXKZAv3zEjR89" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="84" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/clarapujol/JavaExercicios.git&quot;,
+    &quot;accountId&quot;: &quot;a4408bda-17a1-4a86-ae89-1a082c0b95e5&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3AftdkleliBwFkvPL6Vty7cFNI7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Aula2503ClasseseEncapsulamento.MainAluno.executor": "Run",
+    "Application.BonusSalarial.executor": "Run",
+    "Application.ConversaoTemperatura.executor": "Run",
+    "Application.Desafio2SimulCaixa.executor": "Debug",
+    "Application.DesafioAula1803.executor": "Run",
+    "Application.Ex4.executor": "Run",
+    "Application.ExAula1803.executor": "Run",
+    "Application.ExemploArray.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainAluno.executor": "Run",
+    "Application.MainCliente.executor": "Run",
+    "Application.MainEstudante.executor": "Run",
+    "Application.MainProduto.executor": "Run",
+    "Application.MainProduto2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/FACULDADE/3 PERÍODO/desenvolvimento de software",
+    "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Aula2503ClasseseEncapsulamento.MainAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula2503ClasseseEncapsulamento.MainAluno" />
+      <module name="desenvolvimento de software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula2503ClasseseEncapsulamento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula2503ClasseseEncapsulamento.Main" />
+      <module name="desenvolvimento de software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula2503ClasseseEncapsulamento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SistCadastroCliente.MainCliente" />
+      <module name="desenvolvimento de software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SistCadastroCliente.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainEstudante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SistGerenciadorNotasEstudantes.MainEstudante" />
+      <module name="desenvolvimento de software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SistGerenciadorNotasEstudantes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainProduto2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula2003.MainProduto2" />
+      <module name="desenvolvimento de software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula2003.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Aula2503ClasseseEncapsulamento.MainAluno" />
+        <item itemvalue="Application.MainEstudante" />
+        <item itemvalue="Application.MainCliente" />
+        <item itemvalue="Application.MainProduto2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2de609d9-1c16-4967-81be-c8654f8a1b16" name="Changes" comment="" />
+      <created>1772995542544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772995542544</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Desafio2SimulCaixa.java and update .gitignore to ignore .idea/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Desafio2SimulCaixa.java and update .gitignore to ignore .idea/" />
+    <option name="LAST_CHUNK_COMMIT_MESSAGE" value="I updated the file in the InputInt section." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
