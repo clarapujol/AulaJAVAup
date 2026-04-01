@@ -50,7 +50,7 @@ mostrarFuncionarios. O metodo criarFuncionarios é responsável por preencher o 
 solicitando ao usuário que insira o nome, cargo e salário de cada funcionário. O metodo
 mostrarFuncionarios exibe as informações de cada funcionário armazenado no array. O código também
 inclui um comentário com um exemplo de como criar um funcionário e mostrar suas informações usando
-os métodos da classe Funcionario. */
+ os métodos da classe Funcionario. */
 
 }
 

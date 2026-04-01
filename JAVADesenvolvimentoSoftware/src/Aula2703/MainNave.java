@@ -30,7 +30,7 @@ public class MainNave {
         f1.criarNaves();
         f1.verNaves();
 
-        deletarFrota(f1);
+        //deletarFrota(f1);
 
 
 
