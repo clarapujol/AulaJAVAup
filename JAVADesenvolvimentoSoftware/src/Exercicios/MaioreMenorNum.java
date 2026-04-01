@@ -6,9 +6,13 @@ package Exercicios;
         e encontra o maior e o menor número dentro do array
  */
 
+import java.util.Scanner;
+
 public class MaioreMenorNum {
 
     public static void main(String[] args){
+        Scanner leitor = new Scanner(System.in);
+
         int[] num = {45, 12, 78, 4, 90, 23};
 
         int maior = num[0];
