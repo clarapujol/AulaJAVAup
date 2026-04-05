@@ -1,4 +1,4 @@
-package SistCadastroCliente;
+package Classes.SistCadastroCliente;
 
 /*
  Uma empresa deseja criar um sistema de cadastro de clientes. O programa deve

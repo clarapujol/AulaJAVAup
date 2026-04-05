@@ -1,4 +1,4 @@
-package SistGerenciadorNotasEstudantes;
+package Classes.SistGerenciadorNotasEstudantes;
 
 /*
 Crie uma classe chamada "Estudante" com os seguintes atributos: nome e notas

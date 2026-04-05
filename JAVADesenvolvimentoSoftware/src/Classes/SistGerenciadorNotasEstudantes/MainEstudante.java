@@ -1,4 +1,4 @@
-package SistGerenciadorNotasEstudantes;
+package Classes.SistGerenciadorNotasEstudantes;
 import java.util.Scanner;
 
 
@@ -15,7 +15,7 @@ public class MainEstudante {
 
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in); // para ler a entrada do usuário
-        SistGerenciadorNotasEstudantes.Estudante[] estudante = new Estudante[3]; /* array para armazenar os estudantes,
+        Classes.SistGerenciadorNotasEstudantes.Estudante[] estudante = new Estudante[3]; /* array para armazenar os estudantes,
                                                    pode ser de qualquer tamanho, aqui
                                                    coloquei 3 para exemplo */
 

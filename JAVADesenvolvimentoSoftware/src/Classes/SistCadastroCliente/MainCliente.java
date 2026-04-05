@@ -1,4 +1,4 @@
-package SistCadastroCliente;
+package Classes.SistCadastroCliente;
 
 import java.util.Scanner;
 
