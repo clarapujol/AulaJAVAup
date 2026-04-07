@@ -14,35 +14,27 @@ Certifique-se de que a divisão por zero seja tratada de maneira a evitar erros 
 
 public class Calculadora {
 
-    static double num1;
-    static double num2;
-
-
-    // metodo estático para somar
-    public static double somar(double num1, double num2){
-        return num1 + num2;
+    // static = não precisa criar objeto, chama direto pela classe
+    public static double somar(double a, double b) {
+        return a + b;
     }
 
-    // metodo estático para subtrair
-    public static double subtrarir(double num1, double num2){
-        return num1 - num2;
+    public static double subtrair(double a, double b){
+        return a - b;
     }
 
-    // metodo estático para multiplicar
-    public static double multiplicar(double num1, double num2){
-        return num1 * num2;
+    public static double multiplicar(double a, double b){
+        return a * b;
     }
 
-    // metodo estático para dividir
-    public static double dividir(double num1, double num2){
-        if (num2 == 0){
-            System.out.print("Erro! Divisão por zero não é permitida.");
-            return 0; // ou poderia lançar uma exceção, dependendo do design desejado
+    public static double dividir(double a, double b){
+        if (b == 0){
+            System.out.println("Não foi possivel completar essa conta, o valor de B deve ser maior que zero");
+            return 0;
+        }else {
+            return a / b;
         }
-        return num1 / num2;
     }
-
-
 
 }
 
