@@ -9,42 +9,37 @@ Adicione um metodo exibirInfo() para mostrar todos os dados do livro na tela.”
 
 public class Livro {
 
-    String autor;
     String titulo;
+    String autor;
     int ano;
 
-
     // construtor
-    public Livro (String autor, String titulo, int ano){
-        this.autor = autor;
+    public Livro(String titulo, String autor, int ano){
         this.titulo = titulo;
+        this.autor = autor;
         this.ano = ano;
     }
 
-    // metodo para exibir as informações do livro
-    public void exibirInfoLivro(){
-        System.out.println("=== Informações do Livro ===");
-        System.out.println("Título: " + this.titulo);
-        System.out.println("Autor: " + this.autor);
-        System.out.println("Ano: " + this.ano);
+    // metodo que exibe todas as informações do livro
+    public void exibirInfo(){
+        System.out.println("Informacões do livro");
+        System.out.println("1- Titulo do Livro: " + this.titulo);
+        System.out.println("2- Autor do Livro: " + this.autor);
+        System.out.println("3- Ano de lançamento do livro: " + this.ano);
     }
 
-    // GET autor
-    public String getAutor(){
-        return this.autor;
-    }
-
-    // GET titulo
+    // GET - para acessar os atributos de fora da classe
     public String getTitulo(){
         return this.titulo;
     }
 
-    // GET ano
+    public String getAutor(){
+        return this.autor;
+    }
+
     public int getAno(){
         return this.ano;
     }
-
-
 
 
 }
