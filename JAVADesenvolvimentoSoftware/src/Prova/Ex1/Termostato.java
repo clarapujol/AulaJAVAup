@@ -1,31 +1,37 @@
 package Prova.Ex1;
 
 public class Termostato {
-    private int temperaturaAtual;
+
+    private int temperaturaAtual = 25; // (inicie com 25°C)
     private int temperaturaDesejada;
     private boolean estaLigado = false;
 
-    // construtor
-    public Termostato(int temperaturaDesejada) {
-        this.temperaturaAtual = 25;
-        this.temperaturaDesejada = temperaturaDesejada;
-        this.estaLigado = false;
+    Termostato(int temDes){
+        this.temperaturaAtual = 25; // ??
+        this.temperaturaDesejada = temDes;
+        estaLigado = false; // ??
     }
 
-    // metodo
-    void aumentarTemp() {
+    void aumentarTemp(){
         this.temperaturaDesejada += 1;
-        System.out.println("Temperatura desejada aumentada para: " + this.temperaturaDesejada);
+        System.out.println("Temp. desejada aumentada para: " + this.temperaturaDesejada);
     }
 
     void diminuirTemp(){
         this.temperaturaDesejada -= 1;
-        System.out.println("Temperatura desejada diminuida para: " + this.temperaturaDesejada);
+        System.out.println("Temp. desejada diminuida para: " + this.temperaturaDesejada);
+    }
+
+    void exibirStatus(){
+        // mostrar se o aparelho está ligado, a temperatura atual do quarto e a meta definida.
+        System.out.println("--- Status:");
+        System.out.println(" > Ligado: " + this.estaLigado);
+        System.out.println(" > Temp Atual: " + this.temperaturaAtual);
+        System.out.println(" > Temp Des: " + this.temperaturaDesejada);
+        System.out.println("-----------");
     }
 
 
-
-    // GET e SET (alt + insert para ativar o atalho do get e set)
     public int getTemperaturaAtual() {
         return temperaturaAtual;
     }
@@ -42,7 +48,7 @@ public class Termostato {
         this.temperaturaDesejada = temperaturaDesejada;
     }
 
-    public boolean isEstaLigado() { // o is significa está, ou seja isEstaligado(on)/ isOn
+    public boolean isEstaLigado() {
         return estaLigado;
     }
 
@@ -50,12 +56,4 @@ public class Termostato {
         this.estaLigado = estaLigado;
     }
 
-    // exibir status
-    void exibirStatus(){
-        System.out.println("---Status---");
-        System.out.println(" > Ligado " + this.estaLigado);
-        System.out.println(" > Temperatura Atual: " + this.temperaturaAtual);
-        System.out.println(" > Temperatura Desejada: " + this.temperaturaDesejada);
-        System.out.println("------------");
-    }
 }
