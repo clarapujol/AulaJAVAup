@@ -10,5 +10,6 @@
    Alt + Insert -> atalho para get, set, construtor, etc
    Shift + Alt -> selecionar mais de uma linha
    sout -> Sistem.out.prinln("");
+   Alt + F12 -> abrir terminal
 
  */
