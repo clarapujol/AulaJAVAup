@@ -1,7 +1,8 @@
 package POO;
 
+
+    ///--> 1. O que é Herança? (---> EXTENDS <---)
     /*
-    --> 1. O que é Herança? (---> EXTENDS <---)
         Herança é quando uma classe filho herda tudo que a classe pai tem.
 
         public class Animal {
@@ -17,9 +18,12 @@ package POO;
      ----- Pensa assim: o filho herda as características do pai.
      O Cachorro é um Animal, então faz sentido ele herdar tudo que Animal tem.
 
-------------------------------------------------------------------------------------------------------------
+     */
 
-    --> 2. Sobrescrevendo métodos (@Override)
+//------------------------------------------------------------------------------------------------------------
+
+    ////--> 2. Sobrescrevendo métodos (@Override)
+    /*
         Às vezes o filho herda um metodo do pai, mas quer mudar o comportamento dele.
 
         public class Cachorro extends Animal {
@@ -31,10 +35,11 @@ package POO;
 
         ----- O @Override é opcional tecnicamente, mas você sempre deve usar — ele avisa o
         compilador "estou sobrescrevendo um metodo do pai", e o Java te avisa se você errar o nome.
+    */
+//------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------
-
-    --> 3. Chamando o pai com (super)
+    ///--> 3. Chamando o pai com (super)
+    /*
         O super tem dois usos:
         -- Chamar o construtor do pai: --
             public class Gerente extends Funcionario {
@@ -52,11 +57,11 @@ package POO;
                      System.out.println("AU AU!"); // depois executa o do Cachorro
                  }
              }
+    */
+//------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------
-
-    --> 4. Resumo visual
-
+    ///--> 4. Resumo visual
+    /*
              Animal
             /      \
        Cachorro    Gato
@@ -64,11 +69,11 @@ package POO;
        Animal é o pai (superclasse)
        Cachorro e Gato são os filhos (subclasses)
        Os filhos herdam tudo do pai, e podem mudar o que quiserem com @Override
+    */
+//----------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------
-
-    --> Resuminho
-
+    ///--> Resuminho
+    /*
     Palavra                 Pra que serve
  -------------           -------------------
     extends                 Liga o filho ao pai
@@ -76,5 +81,6 @@ package POO;
     super()                 Chama o construtor do pai
     super.metodo()          Chama um metodo do pai
 
+    */
 
-     */
+

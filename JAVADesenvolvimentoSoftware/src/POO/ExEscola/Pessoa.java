@@ -6,5 +6,14 @@ package POO.ExEscola;
 // ============================================================
 
 public class Pessoa {
+        String nome;
+
+        public Pessoa(String nome){
+            this.nome = nome;
+        }
+
+        void apresentar(){
+            System.out.println("Olá, meu nome é " + nome);
+        }
 
 }
