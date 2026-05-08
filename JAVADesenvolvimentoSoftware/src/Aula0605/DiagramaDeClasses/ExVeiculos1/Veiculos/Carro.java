@@ -7,10 +7,11 @@ public class Carro extends Veiculo {
     private float capacidadePortaMalas;
 
     public Carro(int ano, String modelo, String cor, int numeroPortas, String tipoTransmissao, float capacidadeMalas) {
+        super(ano, modelo, cor);
+
         this.numeroPortas = numeroPortas;
         this.tipoTransmissao = tipoTransmissao;
         this.capacidadePortaMalas = capacidadeMalas;
-        super(ano, modelo, cor);
     }
 
     @Override

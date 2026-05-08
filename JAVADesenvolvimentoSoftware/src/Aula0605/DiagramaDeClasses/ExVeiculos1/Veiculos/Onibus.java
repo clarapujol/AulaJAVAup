@@ -7,10 +7,11 @@ public class Onibus extends Veiculo {
     private int numeroPassageiros;
 
     public Onibus(int ano, String modelo, String cor, int capacidadePassageiros, int portasAcesso, int numeroPassageiros) {
+        super(ano, modelo, cor);
+
         this.capacidadePassageiros = capacidadePassageiros;
         this.portasAcesso = portasAcesso;
         this.numeroPassageiros = numeroPassageiros;
-        super(ano, modelo, cor);
     }
 
     @Override

@@ -6,10 +6,11 @@ public class Bicicleta extends Veiculo{
     private String estiloQuadro;
 
     public Bicicleta(int ano, String modelo, String cor, int numeroMarchas, String tipoFreio, String estiloQuadro) {
+        super(ano, modelo, cor);
+
         this.numeroMarchas = numeroMarchas;
         this.tipoFreio = tipoFreio;
         this.estiloQuadro = estiloQuadro;
-        super(ano, modelo, cor);
     }
 
     @Override

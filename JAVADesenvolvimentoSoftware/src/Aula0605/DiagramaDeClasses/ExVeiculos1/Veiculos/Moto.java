@@ -6,10 +6,11 @@ public class Moto extends Veiculo{
     private String tipoFreio;
 
     public Moto(int ano, String modelo, String cor,  int cilindradas, String tipoCombustivel, String tipoFreio) {
+        super(ano, modelo, cor);
+
         this.cilindradas = cilindradas;
         this.tipoCombustivel = tipoCombustivel;
         this.tipoFreio = tipoFreio;
-        super(ano, modelo, cor);
     }
 
     @Override
