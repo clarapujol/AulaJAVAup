@@ -10,5 +10,10 @@ public class Torre extends Personagem{
 
     }
 
+    @Override
+    public String getArma() {
+        return "";
+    }
+
 
 }

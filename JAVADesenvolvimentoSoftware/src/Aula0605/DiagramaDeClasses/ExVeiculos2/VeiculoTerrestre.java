@@ -11,13 +11,14 @@ public class VeiculoTerrestre extends Veiculo{
     }
 
 
-    @Override
-    public void ligar() {
-        System.out.println("Ligando veiculo Terrestre");
+    @Override  // não é obrigado a colocar isso quando tem o abstract
+    public void ligar() { // não é obrigado a colocar isso quando tem o abstract
+        System.out.println("Ligando veiculo Terrestre"); // não é obrigado a colocar isso quando tem o abstract
     }
 
-    @Override
-    public void desligar() {
-        System.out.println("Desligando veiculo Terrestre");
+    @Override // não é obrigado a colocar isso quando tem o abstract
+    public void desligar() { // não é obrigado a colocar isso quando tem o abstract
+        System.out.println("Desligando veiculo Terrestre"); // não é obrigado a colocar isso quando tem o abstract
     }
 }
+
